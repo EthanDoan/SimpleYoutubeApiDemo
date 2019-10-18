@@ -17,6 +17,7 @@
 		02F5E6761C01A9BA00F0961C /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F5E6751C01A9BA00F0961C /* YTPlayerView.m */; };
 		02F5E6781C01A9D000F0961C /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02F5E6771C01A9D000F0961C /* Assets.bundle */; };
 		D7CCE11A23597EC6009094B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CCE11923597EC6009094B9 /* Main.storyboard */; };
+		D7CCE12023599956009094B9 /* PHYoutubePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CCE11F23599956009094B9 /* PHYoutubePlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		02F5E6751C01A9BA00F0961C /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
 		02F5E6771C01A9D000F0961C /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
 		D7CCE11923597EC6009094B9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D7CCE11E23599956009094B9 /* PHYoutubePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHYoutubePlayer.h; sourceTree = "<group>"; };
+		D7CCE11F23599956009094B9 /* PHYoutubePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHYoutubePlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +111,15 @@
 			children = (
 				02F5E6441C01A28200F0961C /* AppDelegate.h */,
 				02F5E6451C01A28200F0961C /* AppDelegate.m */,
+				02F5E6741C01A9BA00F0961C /* YTPlayerView.h */,
+				02F5E6751C01A9BA00F0961C /* YTPlayerView.m */,
+				D7CCE11E23599956009094B9 /* PHYoutubePlayer.h */,
+				D7CCE11F23599956009094B9 /* PHYoutubePlayer.m */,
 				02F5E6471C01A28200F0961C /* ViewController.h */,
 				02F5E6481C01A28200F0961C /* ViewController.m */,
 				02F5E64D1C01A28200F0961C /* Assets.xcassets */,
 				02F5E6771C01A9D000F0961C /* Assets.bundle */,
 				02F5E6411C01A28200F0961C /* Supporting Files */,
-				02F5E6741C01A9BA00F0961C /* YTPlayerView.h */,
-				02F5E6751C01A9BA00F0961C /* YTPlayerView.m */,
 			);
 			path = YoutubeApiDemo;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 				02F5E6491C01A28200F0961C /* ViewController.m in Sources */,
 				02F5E6461C01A28200F0961C /* AppDelegate.m in Sources */,
 				02F5E6761C01A9BA00F0961C /* YTPlayerView.m in Sources */,
+				D7CCE12023599956009094B9 /* PHYoutubePlayer.m in Sources */,
 				02F5E6431C01A28200F0961C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
