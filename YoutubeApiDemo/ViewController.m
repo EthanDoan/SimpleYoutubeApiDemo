@@ -47,6 +47,18 @@
 
 - (void)playerView:(YTPlayerView *)playerView didChangeToState:(YTPlayerState)state{
     switch (state) {
+        case kYTPlayerStateUnstarted: {
+            NSLog(@"kYTPlayerStateUnstarted");
+        }
+            break;
+        case kYTPlayerStateEnded: {
+            NSLog(@"kYTPlayerStateEnded");
+        }
+            break;
+        case kYTPlayerStateBuffering: {
+            NSLog(@"kYTPlayerStateBuffering");
+        }
+            break;
         case kYTPlayerStatePlaying:
             NSLog(@"Star Playback");
             break;
@@ -54,11 +66,15 @@
             NSLog(@"Paused playback");
             break;
         default:
+            NSLog(@"kYTPlayerStateUnknown");
             break;
     }
 }
 
-
+- (void)playerViewDidBecomeReady:(YTPlayerView *)playerView {
+    NSLog(@"playerViewDidBecomeReady");
+    //set video auto play here
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
